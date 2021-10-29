@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #b39cd0;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.add {
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #845ec2;
+  padding: 10px 10px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.subtract {
+  position: absolute;
+  left: 170px;
+  background-color: transparent;
+  border: 1px solid #845ec2;
+  padding: 10px 10px;
+  margin-left: 1px;
+  font-size: 1rem;
+}
+
+.output {
+  position: absolute;
+  left: 110px;
+  top: 160px;
+  background-color: transparent;
+  font-size: 2rem;
+}
